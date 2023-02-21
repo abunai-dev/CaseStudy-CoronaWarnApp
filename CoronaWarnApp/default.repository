@@ -29,28 +29,77 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_lPVWwLHvEe2fRLFFhL_FWA" entityName="VerificationServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_1x5X4LH0Ee2fRLFFhL_FWA" entityName="VerificationServer.VerificationServerAppInterface" providedInterface__OperationProvidedRole="_u9rSELH0Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_pAOKQLH2Ee2fRLFFhL_FWA" entityName="VerificationServer.VerificationCWAServerInterface" providedInterface__OperationProvidedRole="_ebp_ULH2Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_wimWkLH2Ee2fRLFFhL_FWA" entityName="VerificationServer.VerificationPortalnterface" providedInterface__OperationProvidedRole="_tlYXgLH2Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ayFlsLH4Ee2fRLFFhL_FWA" entityName="VerificationServer.AnalyticsInterface" providedInterface__OperationProvidedRole="_RtKBgLH4Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3YwgoLH3Ee2fRLFFhL_FWA" entityName="VerificationServer.TestResultServerInterface" requiredInterface__OperationRequiredRole="_mtT3ALH3Ee2fRLFFhL_FWA"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_n_B3MLHvEe2fRLFFhL_FWA" entityName="PortalServer"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_pS89MLHvEe2fRLFFhL_FWA" entityName="TestResultServer"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_u-WZwLHvEe2fRLFFhL_FWA" entityName="LaboratoryInformationSystem"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_xrwbMLHvEe2fRLFFhL_FWA" entityName="LabDashboard"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_n_B3MLHvEe2fRLFFhL_FWA" entityName="PortalServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Wr2wILH4Ee2fRLFFhL_FWA" entityName="PortalServer.AnalyticsInterface" providedInterface__OperationProvidedRole="_RtKBgLH4Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xxZE8LH2Ee2fRLFFhL_FWA" entityName="PortalServer.VerificationPortalnterface" requiredInterface__OperationRequiredRole="_tlYXgLH2Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_pS89MLHvEe2fRLFFhL_FWA" entityName="TestResultServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_2BmgcLH3Ee2fRLFFhL_FWA" entityName="TestResultServer.TestResultServerInterface" providedInterface__OperationProvidedRole="_mtT3ALH3Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Fqe50LH4Ee2fRLFFhL_FWA" entityName="TestResultServer.LISInterface" providedInterface__OperationProvidedRole="_5qi9ELH3Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_GyS2cLH4Ee2fRLFFhL_FWA" entityName="TestResultServer.TestDashboardInterface" providedInterface__OperationProvidedRole="_CtoHILH4Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_fuq0cLH4Ee2fRLFFhL_FWA" entityName="TestResultServer.AnalyticsInterface" providedInterface__OperationProvidedRole="_RtKBgLH4Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_O5NTMLH4Ee2fRLFFhL_FWA" entityName="TestResultServer.TestResultDBInterface" requiredInterface__OperationRequiredRole="_LWD8kLH4Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_u-WZwLHvEe2fRLFFhL_FWA" entityName="LaboratoryInformationSystem">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IAwNoLH4Ee2fRLFFhL_FWA" entityName="LaboratoryInformationSystem.LISInterface" requiredInterface__OperationRequiredRole="_5qi9ELH3Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xrwbMLHvEe2fRLFFhL_FWA" entityName="LabDashboard">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JRutULH4Ee2fRLFFhL_FWA" entityName="LabDashboard.TestDashboardInterface" requiredInterface__OperationRequiredRole="_CtoHILH4Ee2fRLFFhL_FWA"/>
+  </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_AcWhsLHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OHdNgLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CWAServerAppInterface" providedInterface__OperationProvidedRole="_9fsKALH0Ee2fRLFFhL_FWA"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_S33BcLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CDNServerInterface" providedInterface__OperationProvidedRole="_EQFfwLH1Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_4pQKELH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.GermanKeyInterface" providedInterface__OperationProvidedRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_888M0LH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.EUKeyInterface" requiredInterface__OperationRequiredRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-rh1kLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.SwissKeyInterface" requiredInterface__OperationRequiredRole="_xW26gLH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_nyKbsLH2Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.VerificationCWAServerInterface" requiredInterface__OperationRequiredRole="_ebp_ULH2Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cKTLQLH3Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CWAServerDBInterface" requiredInterface__OperationRequiredRole="_MSaFgLH3Ee2fRLFFhL_FWA"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_FN_rwLHwEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_HslOELHwEe2fRLFFhL_FWA" entityName="SwissKeyExchangeServer"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_PrHx8LHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppAnalyticsServer"/>
-  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Fr6r8LHyEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB"/>
-  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Iwi6kLHyEe2fRLFFhL_FWA" entityName="CoronaWarnAppServerDB"/>
-  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_MOaIkLHyEe2fRLFFhL_FWA" entityName="TestResultServerDB"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_FN_rwLHwEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_686OwLH1Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.EUKeyInterface" providedInterface__OperationProvidedRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AommQLH2Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.GermanKeyInterface" requiredInterface__OperationRequiredRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_XUpD4LH3Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.EFGServiceDBInterface" requiredInterface__OperationRequiredRole="_PgYdYLH3Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_HslOELHwEe2fRLFFhL_FWA" entityName="SwissKeyExchangeServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_5w35cLH1Ee2fRLFFhL_FWA" entityName="SwissKeyExchangeServer.SwissKeyInterface" providedInterface__OperationProvidedRole="_xW26gLH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__pRQMLH1Ee2fRLFFhL_FWA" entityName="SwissKeyExchangeServer.GermanKeyInterface" requiredInterface__OperationRequiredRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_PrHx8LHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppAnalyticsServer">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_UbpBALH4Ee2fRLFFhL_FWA" entityName="CoronaWarnAppAnalyticsServer.AnalyticsInterface" requiredInterface__OperationRequiredRole="_RtKBgLH4Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Fr6r8LHyEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_VvV6ALH3Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB.EFGServiceDBInterface" providedInterface__OperationProvidedRole="_PgYdYLH3Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Iwi6kLHyEe2fRLFFhL_FWA" entityName="CoronaWarnAppServerDB">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZIdK4LH3Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServerDB.CWAServerDBInterface" providedInterface__OperationProvidedRole="_MSaFgLH3Ee2fRLFFhL_FWA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_MOaIkLHyEe2fRLFFhL_FWA" entityName="TestResultServerDB">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Ns87cLH4Ee2fRLFFhL_FWA" entityName="TestResultServerDB.TestResultDBInterface" providedInterface__OperationProvidedRole="_LWD8kLH4Ee2fRLFFhL_FWA"/>
+  </components__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_FC4gkLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationAPI"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_TnzikLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationBLE"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_CmI74LH0Ee2fRLFFhL_FWA" entityName="PrivacyPreserveringAnalyticsInterface"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IuQwsLH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateAPI"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IuQwsLH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_U8eaALH0Ee2fRLFFhL_FWA" entityName="CovPassAPI"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_u9rSELH0Ee2fRLFFhL_FWA" entityName="VerificationServerAppInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_9fsKALH0Ee2fRLFFhL_FWA" entityName="CWAServerAppInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_Al330LH1Ee2fRLFFhL_FWA" entityName="CDNAppInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_EQFfwLH1Ee2fRLFFhL_FWA" entityName="CDNServerInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_tm5P4LH1Ee2fRLFFhL_FWA" entityName="GermanKeyInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xW26gLH1Ee2fRLFFhL_FWA" entityName="SwissKeyInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_zuL-QLH1Ee2fRLFFhL_FWA" entityName="EUKeyInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ebp_ULH2Ee2fRLFFhL_FWA" entityName="VerificationCWAServerInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_tlYXgLH2Ee2fRLFFhL_FWA" entityName="VerificationPortalnterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_MSaFgLH3Ee2fRLFFhL_FWA" entityName="CWAServerDBInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_PgYdYLH3Ee2fRLFFhL_FWA" entityName="EFGServiceDBInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_mtT3ALH3Ee2fRLFFhL_FWA" entityName="TestResultServerInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_5qi9ELH3Ee2fRLFFhL_FWA" entityName="LISInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_CtoHILH4Ee2fRLFFhL_FWA" entityName="TestDashboardInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_LWD8kLH4Ee2fRLFFhL_FWA" entityName="TestResultDBInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_RtKBgLH4Ee2fRLFFhL_FWA" entityName="AnalyticsInterface"/>
 </repository:Repository>
