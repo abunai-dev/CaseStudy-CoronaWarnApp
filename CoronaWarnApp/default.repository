@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:repository_1="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:repository_1="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
   <components__Repository xsi:type="repository:BasicComponent" id="_CL4bELHvEe2fRLFFhL_FWA" entityName="CoronaWarnApp">
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vTXqsLHzEe2fRLFFhL_FWA" entityName="CoronaWarnApp.ExposureNotificationAPI" requiredInterface__OperationRequiredRole="_FC4gkLHzEe2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_FvpDcLH0Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.PrivacyPreserveringAnalytics" requiredInterface__OperationRequiredRole="_CmI74LH0Ee2fRLFFhL_FWA"/>
@@ -12,6 +12,19 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YicQkLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework.ExposureNotificationAPI" providedInterface__OperationProvidedRole="_FC4gkLHzEe2fRLFFhL_FWA"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_bXzUILHzEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework.ExposureNotificationBLE" providedInterface__OperationProvidedRole="_TnzikLHzEe2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_eRtggLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework.ExposureNotificationBLE" requiredInterface__OperationRequiredRole="_TnzikLHzEe2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_KsivYLIBEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework.SecureStorageInterface" requiredInterface__OperationRequiredRole="_AGkPMLIBEe2fRLFFhL_FWA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_cnn04LIBEe2fRLFFhL_FWA" describedService__SEFF="_xPh-8LH_Ee2fRLFFhL_FWA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_dKnNMLIBEe2fRLFFhL_FWA" successor_AbstractAction="_dKnNMbIBEe2fRLFFhL_FWA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_dKnNMbIBEe2fRLFFhL_FWA" predecessor_AbstractAction="_dKnNMLIBEe2fRLFFhL_FWA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_eDYBMLIBEe2fRLFFhL_FWA" describedService__SEFF="_ZeEfcLIAEe2fRLFFhL_FWA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_edH98LIBEe2fRLFFhL_FWA" successor_AbstractAction="_edH98bIBEe2fRLFFhL_FWA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_edH98bIBEe2fRLFFhL_FWA" predecessor_AbstractAction="_edH98LIBEe2fRLFFhL_FWA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_fAXN4LIBEe2fRLFFhL_FWA" describedService__SEFF="_NnwYwLIAEe2fRLFFhL_FWA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_flc38LIBEe2fRLFFhL_FWA" successor_AbstractAction="_flc38bIBEe2fRLFFhL_FWA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_flc38bIBEe2fRLFFhL_FWA" predecessor_AbstractAction="_flc38LIBEe2fRLFFhL_FWA"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_KNikYLHvEe2fRLFFhL_FWA" entityName="DataDonationServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_G_uyULH0Ee2fRLFFhL_FWA" entityName="DataDonationServer.PrivacyPreserveringAnalytics" providedInterface__OperationProvidedRole="_CmI74LH0Ee2fRLFFhL_FWA"/>
@@ -81,8 +94,28 @@
   <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_MOaIkLHyEe2fRLFFhL_FWA" entityName="TestResultServerDB">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Ns87cLH4Ee2fRLFFhL_FWA" entityName="TestResultServerDB.TestResultDBInterface" providedInterface__OperationProvidedRole="_LWD8kLH4Ee2fRLFFhL_FWA"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_FC4gkLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationAPI"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_TnzikLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationBLE"/>
+  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_76WtcLIAEe2fRLFFhL_FWA" entityName="SecureStorage">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_J4KFELIBEe2fRLFFhL_FWA" entityName="SecureStorage.SecureStorageInterface" providedInterface__OperationProvidedRole="_AGkPMLIBEe2fRLFFhL_FWA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_gg5MgLIBEe2fRLFFhL_FWA" describedService__SEFF="_SxPloLIBEe2fRLFFhL_FWA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_h0_4sLIBEe2fRLFFhL_FWA" successor_AbstractAction="_h0_4sbIBEe2fRLFFhL_FWA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_h0_4sbIBEe2fRLFFhL_FWA" predecessor_AbstractAction="_h0_4sLIBEe2fRLFFhL_FWA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_iRhcoLIBEe2fRLFFhL_FWA" describedService__SEFF="_PMlzILIBEe2fRLFFhL_FWA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_jASAELIBEe2fRLFFhL_FWA" successor_AbstractAction="_jASAEbIBEe2fRLFFhL_FWA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_jASAEbIBEe2fRLFFhL_FWA" predecessor_AbstractAction="_jASAELIBEe2fRLFFhL_FWA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_FC4gkLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationAPI">
+    <signatures__OperationInterface id="_xPh-8LH_Ee2fRLFFhL_FWA" entityName="calculateMatches" returnType__OperationSignature="_iu94gLH_Ee2fRLFFhL_FWA">
+      <parameters__OperationSignature dataType__Parameter="_YkBugLH_Ee2fRLFFhL_FWA" parameterName="diagnosisKeys"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_ZeEfcLIAEe2fRLFFhL_FWA" entityName="retrieveOwnKeys" returnType__OperationSignature="_YkBugLH_Ee2fRLFFhL_FWA"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_TnzikLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationBLE">
+    <signatures__OperationInterface id="_NnwYwLIAEe2fRLFFhL_FWA" entityName="broadcastRPIs" returnType__OperationSignature="_f9PXwLH_Ee2fRLFFhL_FWA">
+      <parameters__OperationSignature dataType__Parameter="_f9PXwLH_Ee2fRLFFhL_FWA" parameterName="rpis"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_CmI74LH0Ee2fRLFFhL_FWA" entityName="PrivacyPreserveringAnalyticsInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_IuQwsLH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_U8eaALH0Ee2fRLFFhL_FWA" entityName="CovPassAPI"/>
@@ -102,4 +135,13 @@
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_CtoHILH4Ee2fRLFFhL_FWA" entityName="TestDashboardInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_LWD8kLH4Ee2fRLFFhL_FWA" entityName="TestResultDBInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_RtKBgLH4Ee2fRLFFhL_FWA" entityName="AnalyticsInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_AGkPMLIBEe2fRLFFhL_FWA" entityName="SecureStorageInterface">
+    <signatures__OperationInterface id="_PMlzILIBEe2fRLFFhL_FWA" entityName="store">
+      <parameters__OperationSignature dataType__Parameter="_f9PXwLH_Ee2fRLFFhL_FWA" parameterName="rpis"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_SxPloLIBEe2fRLFFhL_FWA" entityName="load" returnType__OperationSignature="_f9PXwLH_Ee2fRLFFhL_FWA"/>
+  </interfaces__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YkBugLH_Ee2fRLFFhL_FWA" entityName="DiagnosisKeys"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_f9PXwLH_Ee2fRLFFhL_FWA" entityName="RollingProximityIdentifiers"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_iu94gLH_Ee2fRLFFhL_FWA" entityName="SummaryOfContacts"/>
 </repository:Repository>
