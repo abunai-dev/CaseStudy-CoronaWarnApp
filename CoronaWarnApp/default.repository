@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository"/>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:repository_1="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_CL4bELHvEe2fRLFFhL_FWA" entityName="CoronaWarnApp"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_FvxYkLHvEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_KNikYLHvEe2fRLFFhL_FWA" entityName="DataDonationServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Y5FLwLHvEe2fRLFFhL_FWA" entityName="ContentDeliveryNetwork"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_cbuMELHvEe2fRLFFhL_FWA" entityName="DigitalCovidCertificateServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_gwLq4LHvEe2fRLFFhL_FWA" entityName="CovPassIssuerServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_lPVWwLHvEe2fRLFFhL_FWA" entityName="VerificationServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_n_B3MLHvEe2fRLFFhL_FWA" entityName="PortalServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_pS89MLHvEe2fRLFFhL_FWA" entityName="TestResultServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_u-WZwLHvEe2fRLFFhL_FWA" entityName="LaboratoryInformationSystem"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xrwbMLHvEe2fRLFFhL_FWA" entityName="LabDashboard"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_AcWhsLHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_FN_rwLHwEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_HslOELHwEe2fRLFFhL_FWA" entityName="SwissKeyExchangeServer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_PrHx8LHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppAnalyticsServer"/>
+  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Fr6r8LHyEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB"/>
+  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Iwi6kLHyEe2fRLFFhL_FWA" entityName="CoronaWarnAppServerDB"/>
+  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_MOaIkLHyEe2fRLFFhL_FWA" entityName="TestResultServerDB"/>
+</repository:Repository>
