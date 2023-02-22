@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:repository_1="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_dqFLECHbEd6tG9VclJz3cw" entityName="defaultRepository">
   <components__Repository xsi:type="repository:BasicComponent" id="_CL4bELHvEe2fRLFFhL_FWA" entityName="CoronaWarnApp">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_6AMbsLKhEe2Y1pKtbIeM6Q" entityName="CoronaWarnApp.CoronaWarnAppUserInterface" providedInterface__OperationProvidedRole="_1KPZYLKhEe2Y1pKtbIeM6Q"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vTXqsLHzEe2fRLFFhL_FWA" entityName="CoronaWarnApp.ExposureNotificationAPI" requiredInterface__OperationRequiredRole="_FC4gkLHzEe2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_FvpDcLH0Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.PrivacyPreserveringAnalytics" requiredInterface__OperationRequiredRole="_CmI74LH0Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_RxP0ILH0Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.DigitalCovidCertificate" requiredInterface__OperationRequiredRole="_IuQwsLH0Ee2fRLFFhL_FWA"/>
@@ -36,9 +37,17 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_cbuMELHvEe2fRLFFhL_FWA" entityName="DigitalCovidCertificateServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TM7vALH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateServer.DigitalCovidCertificate" providedInterface__OperationProvidedRole="_IuQwsLH0Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_accCoLH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateServer.CovPassAPI" requiredInterface__OperationRequiredRole="_U8eaALH0Ee2fRLFFhL_FWA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_2EyykLKgEe2Y1pKtbIeM6Q" describedService__SEFF="_VemjgLKgEe2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_2v6MILKgEe2Y1pKtbIeM6Q" successor_AbstractAction="_2v6zMLKgEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_2v6zMLKgEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_2v6MILKgEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_gwLq4LHvEe2fRLFFhL_FWA" entityName="CovPassIssuerServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_boTY0LH0Ee2fRLFFhL_FWA" entityName="CovPassIssuerServer.CovPassAPI" providedInterface__OperationProvidedRole="_U8eaALH0Ee2fRLFFhL_FWA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_3eizwLKgEe2Y1pKtbIeM6Q" describedService__SEFF="_hDKy4LKgEe2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_4HylELKgEe2Y1pKtbIeM6Q" successor_AbstractAction="_4HzMILKgEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_4HzMILKgEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_4HylELKgEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_lPVWwLHvEe2fRLFFhL_FWA" entityName="VerificationServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_1x5X4LH0Ee2fRLFFhL_FWA" entityName="VerificationServer.VerificationServerAppInterface" providedInterface__OperationProvidedRole="_u9rSELH0Ee2fRLFFhL_FWA"/>
@@ -49,6 +58,7 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_n_B3MLHvEe2fRLFFhL_FWA" entityName="PortalServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Wr2wILH4Ee2fRLFFhL_FWA" entityName="PortalServer.AnalyticsInterface" providedInterface__OperationProvidedRole="_RtKBgLH4Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_G_e8oLKiEe2Y1pKtbIeM6Q" entityName="PortalServer.PortalServerUserInterface" providedInterface__OperationProvidedRole="_B7VtULKiEe2Y1pKtbIeM6Q"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xxZE8LH2Ee2fRLFFhL_FWA" entityName="PortalServer.VerificationPortalnterface" requiredInterface__OperationRequiredRole="_tlYXgLH2Ee2fRLFFhL_FWA"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_pS89MLHvEe2fRLFFhL_FWA" entityName="TestResultServer">
@@ -59,9 +69,11 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_O5NTMLH4Ee2fRLFFhL_FWA" entityName="TestResultServer.TestResultDBInterface" requiredInterface__OperationRequiredRole="_LWD8kLH4Ee2fRLFFhL_FWA"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_u-WZwLHvEe2fRLFFhL_FWA" entityName="LaboratoryInformationSystem">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_i0kNILKiEe2Y1pKtbIeM6Q" entityName="LaboratoryInformationSystem.LISUserInterface" providedInterface__OperationProvidedRole="_f3SjsLKiEe2Y1pKtbIeM6Q"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IAwNoLH4Ee2fRLFFhL_FWA" entityName="LaboratoryInformationSystem.LISInterface" requiredInterface__OperationRequiredRole="_5qi9ELH3Ee2fRLFFhL_FWA"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_xrwbMLHvEe2fRLFFhL_FWA" entityName="LabDashboard">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_V0-xQLKiEe2Y1pKtbIeM6Q" entityName="LabDashboard.LabDashboardUserInterface" providedInterface__OperationProvidedRole="_SL6Y0LKiEe2Y1pKtbIeM6Q"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JRutULH4Ee2fRLFFhL_FWA" entityName="LabDashboard.TestDashboardInterface" requiredInterface__OperationRequiredRole="_CtoHILH4Ee2fRLFFhL_FWA"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_AcWhsLHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppServer">
@@ -117,8 +129,16 @@
     </signatures__OperationInterface>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_CmI74LH0Ee2fRLFFhL_FWA" entityName="PrivacyPreserveringAnalyticsInterface"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IuQwsLH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateInterface"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_U8eaALH0Ee2fRLFFhL_FWA" entityName="CovPassAPI"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IuQwsLH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateInterface">
+    <signatures__OperationInterface id="_VemjgLKgEe2Y1pKtbIeM6Q" entityName="retrieveDigitalCertificate" returnType__OperationSignature="_kqqTcLKfEe2Y1pKtbIeM6Q">
+      <parameters__OperationSignature dataType__Parameter="_3HbwwLKfEe2Y1pKtbIeM6Q" parameterName="certificateData"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_U8eaALH0Ee2fRLFFhL_FWA" entityName="IssuerServiceAPI">
+    <signatures__OperationInterface id="_hDKy4LKgEe2Y1pKtbIeM6Q" entityName="issue" returnType__OperationSignature="_kqqTcLKfEe2Y1pKtbIeM6Q">
+      <parameters__OperationSignature dataType__Parameter="_3HbwwLKfEe2Y1pKtbIeM6Q" parameterName="certificateData"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_u9rSELH0Ee2fRLFFhL_FWA" entityName="VerificationServerAppInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_9fsKALH0Ee2fRLFFhL_FWA" entityName="CWAServerAppInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_Al330LH1Ee2fRLFFhL_FWA" entityName="CDNAppInterface"/>
@@ -141,7 +161,13 @@
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_SxPloLIBEe2fRLFFhL_FWA" entityName="load" returnType__OperationSignature="_f9PXwLH_Ee2fRLFFhL_FWA"/>
   </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_1KPZYLKhEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppUserInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_B7VtULKiEe2Y1pKtbIeM6Q" entityName="PortalServerUserInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_SL6Y0LKiEe2Y1pKtbIeM6Q" entityName="LabDashboardUserInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_f3SjsLKiEe2Y1pKtbIeM6Q" entityName="LISUserInterface"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YkBugLH_Ee2fRLFFhL_FWA" entityName="DiagnosisKeys"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_f9PXwLH_Ee2fRLFFhL_FWA" entityName="RollingProximityIdentifiers"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_iu94gLH_Ee2fRLFFhL_FWA" entityName="SummaryOfContacts"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_kqqTcLKfEe2Y1pKtbIeM6Q" entityName="DigitalGreenCertificate"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_3HbwwLKfEe2Y1pKtbIeM6Q" entityName="CertificateData"/>
 </repository:Repository>
