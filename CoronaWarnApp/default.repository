@@ -36,10 +36,6 @@
       <steps_Behaviour xsi:type="seff:StartAction" id="_xjKJsLK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_xjKJsbK8Ee2Y1pKtbIeM6Q"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_xjKJsbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_xjKJsLK8Ee2Y1pKtbIeM6Q"/>
     </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_yIK7QLK8Ee2Y1pKtbIeM6Q" describedService__SEFF="_HmV_8LKwEe2Y1pKtbIeM6Q">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_ylVYYLK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_ylVYYbK8Ee2Y1pKtbIeM6Q"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_ylVYYbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_ylVYYLK8Ee2Y1pKtbIeM6Q"/>
-    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_FvxYkLHvEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YicQkLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework.ExposureNotificationAPI" providedInterface__OperationProvidedRole="_FC4gkLHzEe2fRLFFhL_FWA"/>
@@ -67,8 +63,20 @@
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_Y5FLwLHvEe2fRLFFhL_FWA" entityName="ContentDeliveryNetwork">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_PiwG0LH1Ee2fRLFFhL_FWA" entityName="ContentDeliveryNetwork.CDNAppInterface" providedInterface__OperationProvidedRole="_Al330LH1Ee2fRLFFhL_FWA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_QmXf8LH1Ee2fRLFFhL_FWA" entityName="ContentDeliveryNetwork.CDNServerInterface" providedInterface__OperationProvidedRole="_EQFfwLH1Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lvi04LLAEe2Y1pKtbIeM6Q" entityName="ContentDeliveryNetwork.CDNInterface" providedInterface__OperationProvidedRole="_Al330LH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_gj4oULLAEe2Y1pKtbIeM6Q" entityName="ContentDeliveryNetwork.CDNInterface" requiredInterface__OperationRequiredRole="_Al330LH1Ee2fRLFFhL_FWA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lvjb8LLAEe2Y1pKtbIeM6Q" describedService__SEFF="_R14YQLK_Ee2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_lvjb8bLAEe2Y1pKtbIeM6Q" successor_AbstractAction="_lvjb8rLAEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_lvjb8rLAEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_lvjb8bLAEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lvrXwLLAEe2Y1pKtbIeM6Q" describedService__SEFF="_a_iEYLK_Ee2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_lvrXwbLAEe2Y1pKtbIeM6Q" successor_AbstractAction="_lvrXwrLAEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_lvrXwrLAEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_lvrXwbLAEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lvysgLLAEe2Y1pKtbIeM6Q" describedService__SEFF="_T6FEoLK_Ee2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_lvysgbLAEe2Y1pKtbIeM6Q" successor_AbstractAction="_lvysgrLAEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_lvysgrLAEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_lvysgbLAEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_cbuMELHvEe2fRLFFhL_FWA" entityName="DigitalCovidCertificateServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TM7vALH0Ee2fRLFFhL_FWA" entityName="DigitalCovidCertificateServer.DigitalCovidCertificate" providedInterface__OperationProvidedRole="_IuQwsLH0Ee2fRLFFhL_FWA"/>
@@ -114,22 +122,34 @@
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_AcWhsLHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OHdNgLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CWAServerAppInterface" providedInterface__OperationProvidedRole="_9fsKALH0Ee2fRLFFhL_FWA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_S33BcLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CDNServerInterface" providedInterface__OperationProvidedRole="_EQFfwLH1Ee2fRLFFhL_FWA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_4pQKELH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.GermanKeyInterface" providedInterface__OperationProvidedRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_h4H3YLLAEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppServer.CDNInterface" providedInterface__OperationProvidedRole="_Al330LH1Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_888M0LH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.EUKeyInterface" requiredInterface__OperationRequiredRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-rh1kLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.SwissKeyInterface" requiredInterface__OperationRequiredRole="_xW26gLH1Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_nyKbsLH2Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.VerificationCWAServerInterface" requiredInterface__OperationRequiredRole="_ebp_ULH2Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cKTLQLH3Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CWAServerDBInterface" requiredInterface__OperationRequiredRole="_MSaFgLH3Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-7LxMLKwEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppServer.AnalyticsRequestInterface" requiredInterface__OperationRequiredRole="_3_HW8LKwEe2Y1pKtbIeM6Q"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_N6j8wLLAEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppServer.GermanKeyInterface" requiredInterface__OperationRequiredRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_h4NW8LLAEe2Y1pKtbIeM6Q" describedService__SEFF="_R14YQLK_Ee2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_h4NW8bLAEe2Y1pKtbIeM6Q" successor_AbstractAction="_h4NW8rLAEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_h4NW8rLAEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_h4NW8bLAEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_h4kjULLAEe2Y1pKtbIeM6Q" describedService__SEFF="_a_iEYLK_Ee2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_h4kjUbLAEe2Y1pKtbIeM6Q" successor_AbstractAction="_h4kjUrLAEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_h4kjUrLAEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_h4kjUbLAEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_h4vicLLAEe2Y1pKtbIeM6Q" describedService__SEFF="_T6FEoLK_Ee2Y1pKtbIeM6Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_h4vicbLAEe2Y1pKtbIeM6Q" successor_AbstractAction="_h4vicrLAEe2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_h4vicrLAEe2Y1pKtbIeM6Q" predecessor_AbstractAction="_h4vicbLAEe2Y1pKtbIeM6Q"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_FN_rwLHwEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_686OwLH1Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.EUKeyInterface" providedInterface__OperationProvidedRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AommQLH2Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.GermanKeyInterface" requiredInterface__OperationRequiredRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Mi5mQLLAEe2Y1pKtbIeM6Q" entityName="EuropeanFederationGatewayService.GermanKeyInterface" providedInterface__OperationProvidedRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_XUpD4LH3Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.EFGServiceDBInterface" requiredInterface__OperationRequiredRole="_PgYdYLH3Ee2fRLFFhL_FWA"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_HslOELHwEe2fRLFFhL_FWA" entityName="SwissKeyExchangeServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_5w35cLH1Ee2fRLFFhL_FWA" entityName="SwissKeyExchangeServer.SwissKeyInterface" providedInterface__OperationProvidedRole="_xW26gLH1Ee2fRLFFhL_FWA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__pRQMLH1Ee2fRLFFhL_FWA" entityName="SwissKeyExchangeServer.GermanKeyInterface" requiredInterface__OperationRequiredRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LYaJELLAEe2Y1pKtbIeM6Q" entityName="SwissKeyExchangeServer.GermanKeyInterface" providedInterface__OperationProvidedRole="_tm5P4LH1Ee2fRLFFhL_FWA"/>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_PrHx8LHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppAnalyticsServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_9S1TULKwEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppAnalyticsServer.AnalyticsRequestInterface" providedInterface__OperationProvidedRole="_3_HW8LKwEe2Y1pKtbIeM6Q"/>
@@ -158,6 +178,7 @@
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_FC4gkLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationAPI">
     <signatures__OperationInterface id="_xPh-8LH_Ee2fRLFFhL_FWA" entityName="calculateMatches" returnType__OperationSignature="_iu94gLH_Ee2fRLFFhL_FWA">
       <parameters__OperationSignature dataType__Parameter="_YkBugLH_Ee2fRLFFhL_FWA" parameterName="diagnosisKeys"/>
+      <parameters__OperationSignature dataType__Parameter="_l8jEMLLCEe2Y1pKtbIeM6Q" parameterName="configurationParameters"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_ZeEfcLIAEe2fRLFFhL_FWA" entityName="retrieveOwnKeys" returnType__OperationSignature="_YkBugLH_Ee2fRLFFhL_FWA"/>
   </interfaces__Repository>
@@ -184,8 +205,11 @@
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_u9rSELH0Ee2fRLFFhL_FWA" entityName="VerificationServerAppInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_9fsKALH0Ee2fRLFFhL_FWA" entityName="CWAServerAppInterface"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Al330LH1Ee2fRLFFhL_FWA" entityName="CDNAppInterface"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_EQFfwLH1Ee2fRLFFhL_FWA" entityName="CDNServerInterface"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Al330LH1Ee2fRLFFhL_FWA" entityName="CDNInterface">
+    <signatures__OperationInterface id="_R14YQLK_Ee2Y1pKtbIeM6Q" entityName="downloadDiagnosisKeys" returnType__OperationSignature="_YkBugLH_Ee2fRLFFhL_FWA"/>
+    <signatures__OperationInterface id="_T6FEoLK_Ee2Y1pKtbIeM6Q" entityName="downloadStatistics" returnType__OperationSignature="_qZeGALLDEe2Y1pKtbIeM6Q"/>
+    <signatures__OperationInterface id="_a_iEYLK_Ee2Y1pKtbIeM6Q" entityName="downloadConfiguration" returnType__OperationSignature="_l8jEMLLCEe2Y1pKtbIeM6Q"/>
+  </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_tm5P4LH1Ee2fRLFFhL_FWA" entityName="GermanKeyInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_xW26gLH1Ee2fRLFFhL_FWA" entityName="SwissKeyInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_zuL-QLH1Ee2fRLFFhL_FWA" entityName="EUKeyInterface"/>
@@ -205,14 +229,23 @@
     <signatures__OperationInterface id="_SxPloLIBEe2fRLFFhL_FWA" entityName="load" returnType__OperationSignature="_f9PXwLH_Ee2fRLFFhL_FWA"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_1KPZYLKhEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppUserInterface">
-    <signatures__OperationInterface id="_eLmLALKvEe2Y1pKtbIeM6Q" entityName="collectUsageStatistics"/>
-    <signatures__OperationInterface id="_gPc5ILKvEe2Y1pKtbIeM6Q" entityName="enterJournalEntry"/>
-    <signatures__OperationInterface id="_ltcL0LKvEe2Y1pKtbIeM6Q" entityName="scanCertificateQRCode"/>
-    <signatures__OperationInterface id="_qj16ELKvEe2Y1pKtbIeM6Q" entityName="scanTestQRCode"/>
-    <signatures__OperationInterface id="_0P3TcLKvEe2Y1pKtbIeM6Q" entityName="enterTeleTAN"/>
-    <signatures__OperationInterface id="_HmV_8LKwEe2Y1pKtbIeM6Q" entityName="uploadDiagnosisKeys"/>
-    <signatures__OperationInterface id="_Z993gLKwEe2Y1pKtbIeM6Q" entityName="downloadDiagnosisKeys"/>
-    <signatures__OperationInterface id="_pv_l0LKwEe2Y1pKtbIeM6Q" entityName="downloadStatistics"/>
+    <signatures__OperationInterface id="_eLmLALKvEe2Y1pKtbIeM6Q" entityName="collectUsageStatistics">
+      <parameters__OperationSignature dataType__Parameter="_cu0sALKkEe2Y1pKtbIeM6Q" parameterName="analyticData"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_gPc5ILKvEe2Y1pKtbIeM6Q" entityName="enterJournalEntry">
+      <parameters__OperationSignature dataType__Parameter="_FAwOALLBEe2Y1pKtbIeM6Q" parameterName="journalEntry"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_ltcL0LKvEe2Y1pKtbIeM6Q" entityName="scanCertificateQRCode">
+      <parameters__OperationSignature dataType__Parameter="_3HbwwLKfEe2Y1pKtbIeM6Q" parameterName="certificateData"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_qj16ELKvEe2Y1pKtbIeM6Q" entityName="scanTestQRCodeAndUploadDiagnosisKeys">
+      <parameters__OperationSignature dataType__Parameter="_TjuvQLLBEe2Y1pKtbIeM6Q" parameterName="guid"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_0P3TcLKvEe2Y1pKtbIeM6Q" entityName="enterTeleTANAndUploadDiagnosisKeys">
+      <parameters__OperationSignature dataType__Parameter="_eCS_4LLBEe2Y1pKtbIeM6Q" parameterName="teleTAN"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_Z993gLKwEe2Y1pKtbIeM6Q" entityName="updateStatus" returnType__OperationSignature="_iu94gLH_Ee2fRLFFhL_FWA"/>
+    <signatures__OperationInterface id="_pv_l0LKwEe2Y1pKtbIeM6Q" entityName="updateStatistics" returnType__OperationSignature="_qZeGALLDEe2Y1pKtbIeM6Q"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_B7VtULKiEe2Y1pKtbIeM6Q" entityName="PortalServerUserInterface"/>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_SL6Y0LKiEe2Y1pKtbIeM6Q" entityName="LabDashboardUserInterface"/>
@@ -225,4 +258,10 @@
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_3HbwwLKfEe2Y1pKtbIeM6Q" entityName="CertificateData"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_cu0sALKkEe2Y1pKtbIeM6Q" entityName="AnalyticData"/>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_elkyQLKkEe2Y1pKtbIeM6Q" entityName="AuthenticityProof"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_FAwOALLBEe2Y1pKtbIeM6Q" entityName="JournalEntry"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_TjuvQLLBEe2Y1pKtbIeM6Q" entityName="GUID"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_eCS_4LLBEe2Y1pKtbIeM6Q" entityName="TeleTAN"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_fr3lwLLBEe2Y1pKtbIeM6Q" entityName="TAN"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_l8jEMLLCEe2Y1pKtbIeM6Q" entityName="AppConfiguration"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_qZeGALLDEe2Y1pKtbIeM6Q" entityName="GeneralStatistics"/>
 </repository:Repository>
