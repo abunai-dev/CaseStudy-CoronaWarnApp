@@ -197,7 +197,7 @@
   <components__Repository xsi:type="repository:BasicComponent" id="_AcWhsLHwEe2fRLFFhL_FWA" entityName="CoronaWarnAppServer">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OHdNgLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CWAServerAppInterface" providedInterface__OperationProvidedRole="_9fsKALH0Ee2fRLFFhL_FWA"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_h4H3YLLAEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppServer.CDNInterface" providedInterface__OperationProvidedRole="_Al330LH1Ee2fRLFFhL_FWA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_888M0LH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.EUKeyInterface" requiredInterface__OperationRequiredRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_888M0LH1Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.KeyExchangeInterface" requiredInterface__OperationRequiredRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_nyKbsLH2Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.VerificationCWAServerInterface" requiredInterface__OperationRequiredRole="_ebp_ULH2Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cKTLQLH3Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServer.CWAServerDBInterface" requiredInterface__OperationRequiredRole="_MSaFgLH3Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-7LxMLKwEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppServer.AnalyticsRequestInterface" requiredInterface__OperationRequiredRole="_3_HW8LKwEe2Y1pKtbIeM6Q"/>
@@ -219,7 +219,7 @@
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_FN_rwLHwEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_686OwLH1Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.EUKeyInterface" providedInterface__OperationProvidedRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_686OwLH1Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.KeyExchangeInterface" providedInterface__OperationProvidedRole="_zuL-QLH1Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_XUpD4LH3Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayService.EFGServiceDBInterface" requiredInterface__OperationRequiredRole="_PgYdYLH3Ee2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_c_u-ILNaEe2o46d27a6tVQ" describedService__SEFF="_-lRm0LNZEe2o46d27a6tVQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_dWvI4LNaEe2o46d27a6tVQ" successor_AbstractAction="_dWvI4bNaEe2o46d27a6tVQ"/>
