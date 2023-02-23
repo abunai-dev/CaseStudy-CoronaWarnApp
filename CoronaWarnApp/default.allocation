@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_JiPBICHdEd6lJo4DCALHMw" entityName="defaultAllocation">
-  <targetResourceEnvironment_Allocation href="My.resourceenvironment#/"/>
+  <targetResourceEnvironment_Allocation href="My.resourceenvironment#/0"/>
   <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
   <allocationContexts_Allocation id="_FAMgMLN4Ee2o46d27a6tVQ" entityName="Allocation_Assembly_CoronaWarnApp">
     <resourceContainer_AllocationContext href="My.resourceenvironment#_g7XcgLN2Ee2o46d27a6tVQ"/>

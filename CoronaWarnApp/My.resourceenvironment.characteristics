@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<characteristics:Characteristics xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DataDictionaryCharacterized="http://palladiosimulator.org/dataflow/dictionary/characterized/1.0" xmlns:characteristics="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/characteristics" id="_iZ7KkLOJEe2o46d27a6tVQ">
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_iagZYLOJEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@0"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_nZh4ILOJEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@0"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@4"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_sw0F4LOJEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@3"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_zxbB4LOJEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@1"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_1ePwELOJEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@5"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_4MXjMLOJEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@6"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_Apv_MLOKEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@2"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_C019wLOKEe2o46d27a6tVQ">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@7"/>
+  </characteristics>
+</characteristics:Characteristics>
