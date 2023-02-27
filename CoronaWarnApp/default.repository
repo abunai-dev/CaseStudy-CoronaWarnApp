@@ -366,14 +366,14 @@
     <signatures__OperationInterface id="_IrN44LNWEe2o46d27a6tVQ" entityName="requestTeleTAN" returnType__OperationSignature="_eCS_4LLBEe2Y1pKtbIeM6Q"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_MSaFgLH3Ee2fRLFFhL_FWA" entityName="CWAServerDBInterface">
-    <signatures__OperationInterface id="_hWccgLNWEe2o46d27a6tVQ" entityName="load" returnType__OperationSignature="_YkBugLH_Ee2fRLFFhL_FWA"/>
-    <signatures__OperationInterface id="_iydHgLNWEe2o46d27a6tVQ" entityName="store">
+    <signatures__OperationInterface id="_hWccgLNWEe2o46d27a6tVQ" entityName="get" returnType__OperationSignature="_YkBugLH_Ee2fRLFFhL_FWA"/>
+    <signatures__OperationInterface id="_iydHgLNWEe2o46d27a6tVQ" entityName="add">
       <parameters__OperationSignature dataType__Parameter="_YkBugLH_Ee2fRLFFhL_FWA" parameterName="diagnosisKeys"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_PgYdYLH3Ee2fRLFFhL_FWA" entityName="EFGServiceDBInterface">
-    <signatures__OperationInterface id="_LOjbgLNaEe2o46d27a6tVQ" entityName="load" returnType__OperationSignature="_YkBugLH_Ee2fRLFFhL_FWA"/>
-    <signatures__OperationInterface id="_MiIjQLNaEe2o46d27a6tVQ" entityName="store">
+    <signatures__OperationInterface id="_LOjbgLNaEe2o46d27a6tVQ" entityName="get" returnType__OperationSignature="_YkBugLH_Ee2fRLFFhL_FWA"/>
+    <signatures__OperationInterface id="_MiIjQLNaEe2o46d27a6tVQ" entityName="add">
       <parameters__OperationSignature dataType__Parameter="_YkBugLH_Ee2fRLFFhL_FWA" parameterName="diagnosisKeys"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
@@ -392,8 +392,8 @@
     <signatures__OperationInterface id="_4AD4QLNXEe2o46d27a6tVQ" entityName="fetchStatistics" returnType__OperationSignature="_00sIcLNXEe2o46d27a6tVQ"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_LWD8kLH4Ee2fRLFFhL_FWA" entityName="TestResultDBInterface">
-    <signatures__OperationInterface id="_XiXd4LNXEe2o46d27a6tVQ" entityName="load" returnType__OperationSignature="_XyP58LLIEe2Y1pKtbIeM6Q"/>
-    <signatures__OperationInterface id="_YrN8ULNXEe2o46d27a6tVQ" entityName="store">
+    <signatures__OperationInterface id="_XiXd4LNXEe2o46d27a6tVQ" entityName="get" returnType__OperationSignature="_XyP58LLIEe2Y1pKtbIeM6Q"/>
+    <signatures__OperationInterface id="_YrN8ULNXEe2o46d27a6tVQ" entityName="add">
       <parameters__OperationSignature dataType__Parameter="_XyP58LLIEe2Y1pKtbIeM6Q" parameterName="testResult"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
@@ -401,10 +401,10 @@
     <signatures__OperationInterface id="_FQGK8LNYEe2o46d27a6tVQ" entityName="collectStatistics" returnType__OperationSignature="_00sIcLNXEe2o46d27a6tVQ"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_AGkPMLIBEe2fRLFFhL_FWA" entityName="SecureStorageInterface">
-    <signatures__OperationInterface id="_PMlzILIBEe2fRLFFhL_FWA" entityName="store">
+    <signatures__OperationInterface id="_PMlzILIBEe2fRLFFhL_FWA" entityName="add">
       <parameters__OperationSignature dataType__Parameter="_f9PXwLH_Ee2fRLFFhL_FWA" parameterName="rpis"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_SxPloLIBEe2fRLFFhL_FWA" entityName="load" returnType__OperationSignature="_f9PXwLH_Ee2fRLFFhL_FWA"/>
+    <signatures__OperationInterface id="_SxPloLIBEe2fRLFFhL_FWA" entityName="get" returnType__OperationSignature="_f9PXwLH_Ee2fRLFFhL_FWA"/>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_1KPZYLKhEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppUserInterface">
     <signatures__OperationInterface id="_eLmLALKvEe2Y1pKtbIeM6Q" entityName="collectUsageStatistics">
