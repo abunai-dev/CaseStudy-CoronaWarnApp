@@ -28,4 +28,12 @@
     <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@0"/>
     <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@0.literals@0"/>
   </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_t9WQYLZ8Ee2xLZp9hElpuA">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@0"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@0.literals@0"/>
+  </characteristics>
+  <characteristics xsi:type="characteristics:EnumCharacteristic" id="_eQFbYLZ-Ee2xLZp9hElpuA">
+    <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@0"/>
+    <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@0.literals@0"/>
+  </characteristics>
 </characteristics:Characteristics>

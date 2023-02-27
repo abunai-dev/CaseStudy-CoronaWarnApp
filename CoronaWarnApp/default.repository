@@ -36,6 +36,10 @@
       <steps_Behaviour xsi:type="seff:StartAction" id="_xjKJsLK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_xjKJsbK8Ee2Y1pKtbIeM6Q"/>
       <steps_Behaviour xsi:type="seff:StopAction" id="_xjKJsbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_xjKJsLK8Ee2Y1pKtbIeM6Q"/>
     </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_4tarQLZ9Ee2xLZp9hElpuA" describedService__SEFF="_lQqXoLZ9Ee2xLZp9hElpuA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_481AQLZ9Ee2xLZp9hElpuA" successor_AbstractAction="_481AQbZ9Ee2xLZp9hElpuA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_481AQbZ9Ee2xLZp9hElpuA" predecessor_AbstractAction="_481AQLZ9Ee2xLZp9hElpuA"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_FvxYkLHvEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YicQkLHzEe2fRLFFhL_FWA" entityName="ExposureNotificationFramework.ExposureNotificationAPI" providedInterface__OperationProvidedRole="_FC4gkLHzEe2fRLFFhL_FWA"/>
@@ -412,7 +416,7 @@
     <signatures__OperationInterface id="_ltcL0LKvEe2Y1pKtbIeM6Q" entityName="scanCertificateQRCode">
       <parameters__OperationSignature dataType__Parameter="_3HbwwLKfEe2Y1pKtbIeM6Q" parameterName="certificateData"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_qj16ELKvEe2Y1pKtbIeM6Q" entityName="scanTestQRCodeAndUploadDiagnosisKeys" returnType__OperationSignature="_XyP58LLIEe2Y1pKtbIeM6Q">
+    <signatures__OperationInterface id="_qj16ELKvEe2Y1pKtbIeM6Q" entityName="scanTestQRCode" returnType__OperationSignature="_XyP58LLIEe2Y1pKtbIeM6Q">
       <parameters__OperationSignature dataType__Parameter="_TjuvQLLBEe2Y1pKtbIeM6Q" parameterName="guid"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_0P3TcLKvEe2Y1pKtbIeM6Q" entityName="enterTeleTANAndUploadDiagnosisKeys">
@@ -420,6 +424,9 @@
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_Z993gLKwEe2Y1pKtbIeM6Q" entityName="updateStatus" returnType__OperationSignature="_iu94gLH_Ee2fRLFFhL_FWA"/>
     <signatures__OperationInterface id="_pv_l0LKwEe2Y1pKtbIeM6Q" entityName="updateStatistics" returnType__OperationSignature="_qZeGALLDEe2Y1pKtbIeM6Q"/>
+    <signatures__OperationInterface id="_lQqXoLZ9Ee2xLZp9hElpuA" entityName="confirmDiagnosisKeysUpload">
+      <parameters__OperationSignature dataType__Parameter="_TjuvQLLBEe2Y1pKtbIeM6Q" parameterName="guid"/>
+    </signatures__OperationInterface>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_B7VtULKiEe2Y1pKtbIeM6Q" entityName="PortalServerUserInterface">
     <signatures__OperationInterface id="_uE1QILNVEe2o46d27a6tVQ" entityName="requestTeleTAN" returnType__OperationSignature="_eCS_4LLBEe2Y1pKtbIeM6Q"/>
