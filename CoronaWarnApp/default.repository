@@ -9,8 +9,43 @@
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_LykZwLH1Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.CWAServerAppInterface" requiredInterface__OperationRequiredRole="_9fsKALH0Ee2fRLFFhL_FWA"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_NBnm0LH1Ee2fRLFFhL_FWA" entityName="CoronaWarnApp.CDNAppInterface" requiredInterface__OperationRequiredRole="_Al330LH1Ee2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_opWQYLK8Ee2Y1pKtbIeM6Q" describedService__SEFF="_eLmLALKvEe2Y1pKtbIeM6Q">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_pa4bALK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_pa4bAbK8Ee2Y1pKtbIeM6Q"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_pa4bAbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_pa4bALK8Ee2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_pa4bALK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_k_kwULd9Ee2lCsB2iGU-8w"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_pa4bAbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_XZGTkLd9Ee2lCsB2iGU-8w"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_XZGTkLd9Ee2lCsB2iGU-8w" entityName="SendAnalyticData" predecessor_AbstractAction="_k_kwULd9Ee2lCsB2iGU-8w" successor_AbstractAction="_pa4bAbK8Ee2Y1pKtbIeM6Q" calledService_ExternalService="_X_Ke8LKkEe2Y1pKtbIeM6Q" role_ExternalService="_FvpDcLH0Ee2fRLFFhL_FWA">
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_d-c2_rd9Ee2lCsB2iGU-8w"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_d-c2_7d9Ee2lCsB2iGU-8w">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="analyticData"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="analyticData"/>
+        </inputVariableUsages__CallAction>
+        <inputVariableUsages__CallAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_A0fo4bd-Ee2lCsB2iGU-8w"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_A0fo4rd-Ee2lCsB2iGU-8w">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="authenticityProof"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="authenticityProof"/>
+        </inputVariableUsages__CallAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_k_kwULd9Ee2lCsB2iGU-8w" entityName="GenerateAuthenticityProof" predecessor_AbstractAction="_pa4bALK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_XZGTkLd9Ee2lCsB2iGU-8w">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_5ARegLd9Ee2lCsB2iGU-8w">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@2"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@2.literals@4"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_5ARegbd9Ee2lCsB2iGU-8w"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="authenticityProof"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_p6wN4LK8Ee2Y1pKtbIeM6Q" describedService__SEFF="_Z993gLKwEe2Y1pKtbIeM6Q">
       <steps_Behaviour xsi:type="seff:StartAction" id="_qgv24LK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_qgv24bK8Ee2Y1pKtbIeM6Q"/>
