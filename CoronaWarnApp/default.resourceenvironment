@@ -25,35 +25,35 @@
   <emfprofileapplication:ProfileApplication>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_g7XcgLN2Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_iagZYLOJEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_iagZYLOJEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_Buy2ULN3Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_nZh4ILOJEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_nZh4ILOJEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_rlXhELN2Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_sw0F4LOJEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_sw0F4LOJEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_itmPILN2Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_zxbB4LOJEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_zxbB4LOJEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_E9SLkLN3Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_1ePwELOJEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_1ePwELOJEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_HCgLoLN3Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_4MXjMLOJEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_4MXjMLOJEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_pGlxgLN2Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_Apv_MLOKEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_Apv_MLOKEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <stereotypeApplications xsi:type="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile:Characterisable" appliedTo="_YzICsLN5Ee2o46d27a6tVQ">
       <extension href="../../plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram#_5cGYIBB1EeuGl5fMWzDLAw"/>
-      <characteristics xsi:type="characteristics:EnumCharacteristic" href="My.resourceenvironment.characteristics#_C019wLOKEe2o46d27a6tVQ"/>
+      <characteristics xsi:type="characteristics:EnumCharacteristic" href="default.resourceenvironment.characteristics#_C019wLOKEe2o46d27a6tVQ"/>
     </stereotypeApplications>
     <importedProfiles nsURI="org.palladiosimulator.dataflow.confidentiality.pcm.model.profile" location="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model.profile/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
