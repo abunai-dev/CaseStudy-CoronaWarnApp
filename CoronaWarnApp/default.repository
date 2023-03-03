@@ -968,12 +968,49 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_G_e8oLKiEe2Y1pKtbIeM6Q" entityName="PortalServer.PortalServerUserInterface" providedInterface__OperationProvidedRole="_B7VtULKiEe2Y1pKtbIeM6Q"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xxZE8LH2Ee2fRLFFhL_FWA" entityName="PortalServer.VerificationPortalnterface" requiredInterface__OperationRequiredRole="_tlYXgLH2Ee2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_e5hRoLNXEe2o46d27a6tVQ" describedService__SEFF="_uE1QILNVEe2o46d27a6tVQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_fLwRILNXEe2o46d27a6tVQ" successor_AbstractAction="_fLwRIbNXEe2o46d27a6tVQ"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_fLwRIbNXEe2o46d27a6tVQ" predecessor_AbstractAction="_fLwRILNXEe2o46d27a6tVQ"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_fLwRILNXEe2o46d27a6tVQ" successor_AbstractAction="__V2a8Lm2Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_fLwRIbNXEe2o46d27a6tVQ" predecessor_AbstractAction="__9wIcLm2Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="__V2a8Lm2Ee2dIMSi7oNVYQ" entityName="GetTeleTAN" predecessor_AbstractAction="_fLwRILNXEe2o46d27a6tVQ" successor_AbstractAction="__9wIcLm2Ee2dIMSi7oNVYQ" calledService_ExternalService="_IrN44LNWEe2o46d27a6tVQ" role_ExternalService="_xxZE8LH2Ee2fRLFFhL_FWA">
+        <returnVariableUsage__CallReturnAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_F1ZRYLm3Ee2dIMSi7oNVYQ"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_F1ZRYbm3Ee2dIMSi7oNVYQ">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="teleTAN"/>
+        </returnVariableUsage__CallReturnAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__9wIcLm2Ee2dIMSi7oNVYQ" entityName="ReturnTeleTAN" predecessor_AbstractAction="__V2a8Lm2Ee2dIMSi7oNVYQ" successor_AbstractAction="_fLwRIbNXEe2o46d27a6tVQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_H6J-cbm3Ee2dIMSi7oNVYQ"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_H6J-crm3Ee2dIMSi7oNVYQ">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="teleTAN"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_O5IhwLNYEe2o46d27a6tVQ" describedService__SEFF="_FQGK8LNYEe2o46d27a6tVQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_Pfc64LNYEe2o46d27a6tVQ" successor_AbstractAction="_Pfc64bNYEe2o46d27a6tVQ"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_Pfc64bNYEe2o46d27a6tVQ" predecessor_AbstractAction="_Pfc64LNYEe2o46d27a6tVQ"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Pfc64LNYEe2o46d27a6tVQ" successor_AbstractAction="_TBYxcLm3Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Pfc64bNYEe2o46d27a6tVQ" predecessor_AbstractAction="_TBYxcLm3Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_TBYxcLm3Ee2dIMSi7oNVYQ" entityName="ReturnStats" predecessor_AbstractAction="_Pfc64LNYEe2o46d27a6tVQ" successor_AbstractAction="_Pfc64bNYEe2o46d27a6tVQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_YkqMwLm3Ee2dIMSi7oNVYQ">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@3"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@3.literals@0"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_YkqMwbm3Ee2dIMSi7oNVYQ"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_pS89MLHvEe2fRLFFhL_FWA" entityName="TestResultServer">
@@ -995,8 +1032,21 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="__NZBobNXEe2o46d27a6tVQ" predecessor_AbstractAction="__NZBoLNXEe2o46d27a6tVQ"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_RqB8ELNYEe2o46d27a6tVQ" describedService__SEFF="_FQGK8LNYEe2o46d27a6tVQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_SFyrALNYEe2o46d27a6tVQ" successor_AbstractAction="_SFyrAbNYEe2o46d27a6tVQ"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_SFyrAbNYEe2o46d27a6tVQ" predecessor_AbstractAction="_SFyrALNYEe2o46d27a6tVQ"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_SFyrALNYEe2o46d27a6tVQ" successor_AbstractAction="_oABukLm3Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_SFyrAbNYEe2o46d27a6tVQ" predecessor_AbstractAction="_oABukLm3Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_oABukLm3Ee2dIMSi7oNVYQ" entityName="ReturnStats" predecessor_AbstractAction="_SFyrALNYEe2o46d27a6tVQ" successor_AbstractAction="_SFyrAbNYEe2o46d27a6tVQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_sHSe5bm3Ee2dIMSi7oNVYQ">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@3"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@3.literals@0"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_sHSe5rm3Ee2dIMSi7oNVYQ"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository:BasicComponent" id="_u-WZwLHvEe2fRLFFhL_FWA" entityName="LaboratoryInformationSystem">
@@ -1256,8 +1306,60 @@
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_9S1TULKwEe2Y1pKtbIeM6Q" entityName="CoronaWarnAppAnalyticsServer.AnalyticsRequestInterface" providedInterface__OperationProvidedRole="_3_HW8LKwEe2Y1pKtbIeM6Q"/>
     <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_UbpBALH4Ee2fRLFFhL_FWA" entityName="CoronaWarnAppAnalyticsServer.AnalyticsInterface" requiredInterface__OperationRequiredRole="_RtKBgLH4Ee2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_a1JAwLNYEe2o46d27a6tVQ" describedService__SEFF="_VYcHgLNYEe2o46d27a6tVQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_bGOwwLNYEe2o46d27a6tVQ" successor_AbstractAction="_bGOwwbNYEe2o46d27a6tVQ"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_bGOwwbNYEe2o46d27a6tVQ" predecessor_AbstractAction="_bGOwwLNYEe2o46d27a6tVQ"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_bGOwwLNYEe2o46d27a6tVQ" successor_AbstractAction="_wqx4MLm3Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_bGOwwbNYEe2o46d27a6tVQ" predecessor_AbstractAction="_6VQZcLm3Ee2dIMSi7oNVYQ"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_wqx4MLm3Ee2dIMSi7oNVYQ" entityName="CollectStatisticsFromEverywhere" predecessor_AbstractAction="_bGOwwLNYEe2o46d27a6tVQ" successor_AbstractAction="_xtt74Lm3Ee2dIMSi7oNVYQ" calledService_ExternalService="_FQGK8LNYEe2o46d27a6tVQ" role_ExternalService="_UbpBALH4Ee2fRLFFhL_FWA">
+        <returnVariableUsage__CallReturnAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_Sai-kbm4Ee2dIMSi7oNVYQ"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_Sai-krm4Ee2dIMSi7oNVYQ">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="detailedStats"/>
+        </returnVariableUsage__CallReturnAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_xtt74Lm3Ee2dIMSi7oNVYQ" entityName="CalculateGeneralStatistics" predecessor_AbstractAction="_wqx4MLm3Ee2dIMSi7oNVYQ" successor_AbstractAction="_6VQZcLm3Ee2dIMSi7oNVYQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_Y4hHcLm4Ee2dIMSi7oNVYQ"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_Y4hHcbm4Ee2dIMSi7oNVYQ">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="detailedStats"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_Y4hHcrm4Ee2dIMSi7oNVYQ">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@3"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@3.literals@0"/>
+            </lhs>
+            <rhs xsi:type="expressions:False" id="_Y4hHc7m4Ee2dIMSi7oNVYQ"/>
+          </variableCharacterisation_VariableUsage>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_Y4hHdLm4Ee2dIMSi7oNVYQ">
+              <characteristicType xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@3"/>
+              <literal href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@3.literals@1"/>
+            </lhs>
+            <rhs xsi:type="expressions:True" id="_Y4hHdbm4Ee2dIMSi7oNVYQ"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="generalStats"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_6VQZcLm3Ee2dIMSi7oNVYQ" entityName="ReturnGeneralStatistics" predecessor_AbstractAction="_xtt74Lm3Ee2dIMSi7oNVYQ" successor_AbstractAction="_bGOwwbNYEe2o46d27a6tVQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_b0LnULm4Ee2dIMSi7oNVYQ"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_b0LnUbm4Ee2dIMSi7oNVYQ">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="generalStats"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="RETURN"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
   <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Fr6r8LHyEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB">
