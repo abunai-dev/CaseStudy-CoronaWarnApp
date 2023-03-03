@@ -6721,8 +6721,8 @@
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Fr7TALHyEe2fRLFFhL_FWA" name="&lt;&lt;BasicComponent>>&#xA;EuropeanFederationGatewayServiceDB" outgoingEdges="_VvdOzLH3Ee2fRLFFhL_FWA" childrenPresentation="VerticalStack">
-      <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
-      <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+      <target xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+      <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -6731,8 +6731,8 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_FsALmLHyEe2fRLFFhL_FWA" name="SEFFCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_FsALmbHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@style"/>
         </ownedStyle>
@@ -6755,24 +6755,24 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_FsAykLHyEe2fRLFFhL_FWA" name="PassiveResourcesCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_FsAykbHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_FsAyk7HyEe2fRLFFhL_FWA" name="ComponentParameterCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_FsAylLHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_FsAylrHyEe2fRLFFhL_FWA" name="ResourceRequiredRoles">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_FsAyl7HyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ResourceRequiredRolesCompartment']/@style"/>
         </ownedStyle>
@@ -6780,8 +6780,8 @@
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_IwjhoLHyEe2fRLFFhL_FWA" name="&lt;&lt;BasicComponent>>&#xA;CoronaWarnAppServerDB" outgoingEdges="_ZIeZQLH3Ee2fRLFFhL_FWA" childrenPresentation="VerticalStack">
-      <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
-      <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+      <target xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+      <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -6790,8 +6790,8 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_IwpBMrHyEe2fRLFFhL_FWA" name="SEFFCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_IwpBM7HyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@style"/>
         </ownedStyle>
@@ -6814,24 +6814,24 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_IwpBNbHyEe2fRLFFhL_FWA" name="PassiveResourcesCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_IwpBNrHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_IwpBOLHyEe2fRLFFhL_FWA" name="ComponentParameterCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_IwpBObHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_IwpBO7HyEe2fRLFFhL_FWA" name="ResourceRequiredRoles">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_IwpBPLHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ResourceRequiredRolesCompartment']/@style"/>
         </ownedStyle>
@@ -6839,8 +6839,8 @@
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_MOaIkbHyEe2fRLFFhL_FWA" name="&lt;&lt;BasicComponent>>&#xA;TestResultServerDB" outgoingEdges="_Ns-w8LH4Ee2fRLFFhL_FWA" childrenPresentation="VerticalStack">
-      <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
-      <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+      <target xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+      <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -6849,8 +6849,8 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_MOfBLLHyEe2fRLFFhL_FWA" name="SEFFCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MOfoILHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@style"/>
         </ownedStyle>
@@ -6873,24 +6873,24 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_MOfoIrHyEe2fRLFFhL_FWA" name="PassiveResourcesCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MOfoI7HyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_MOfoJbHyEe2fRLFFhL_FWA" name="ComponentParameterCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MOfoJrHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_MOfoKLHyEe2fRLFFhL_FWA" name="ResourceRequiredRoles">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_MOgPMLHyEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ResourceRequiredRolesCompartment']/@style"/>
         </ownedStyle>
@@ -7785,8 +7785,8 @@
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='DataTypes']/@containerMappings[name='CompositeDataType']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_76WtcbIAEe2fRLFFhL_FWA" name="&lt;&lt;BasicComponent>>&#xA;SecureStorage" outgoingEdges="_J4L6oLIBEe2fRLFFhL_FWA" childrenPresentation="VerticalStack">
-      <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
-      <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+      <target xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+      <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -7795,8 +7795,8 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_77NCC7IAEe2fRLFFhL_FWA" name="SEFFCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_77NCDLIAEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='SEFFCompartment']/@style"/>
         </ownedStyle>
@@ -7819,24 +7819,24 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_77NCDrIAEe2fRLFFhL_FWA" name="PassiveResourcesCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_77NCD7IAEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='PassiveResourcesCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_77NCEbIAEe2fRLFFhL_FWA" name="ComponentParameterCompartment">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_77NCErIAEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ComponentParameterCompartment']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_77NCFLIAEe2fRLFFhL_FWA" name="ResourceRequiredRoles">
-        <target xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
-        <semanticElements xmi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <target xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+        <semanticElements xmi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_77NCFbIAEe2fRLFFhL_FWA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='BasicComponent']/@subContainerMappings[name='ResourceRequiredRolesCompartment']/@style"/>
         </ownedStyle>

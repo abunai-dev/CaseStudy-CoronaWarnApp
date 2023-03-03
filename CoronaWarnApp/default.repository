@@ -1457,7 +1457,7 @@
       </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Fr6r8LHyEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB">
+  <components__Repository xsi:type="repository:BasicComponent" id="_Fr6r8LHyEe2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_VvV6ALH3Ee2fRLFFhL_FWA" entityName="EuropeanFederationGatewayServiceDB.EFGServiceDBInterface" providedInterface__OperationProvidedRole="_PgYdYLH3Ee2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_0urfsLNaEe2o46d27a6tVQ" describedService__SEFF="_LOjbgLNaEe2o46d27a6tVQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_0-6UELNaEe2o46d27a6tVQ" successor_AbstractAction="_0-6UEbNaEe2o46d27a6tVQ"/>
@@ -1468,7 +1468,7 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_1iDdYbNaEe2o46d27a6tVQ" predecessor_AbstractAction="_1iDdYLNaEe2o46d27a6tVQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_Iwi6kLHyEe2fRLFFhL_FWA" entityName="CoronaWarnAppServerDB">
+  <components__Repository xsi:type="repository:BasicComponent" id="_Iwi6kLHyEe2fRLFFhL_FWA" entityName="CoronaWarnAppServerDB">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZIdK4LH3Ee2fRLFFhL_FWA" entityName="CoronaWarnAppServerDB.CWAServerDBInterface" providedInterface__OperationProvidedRole="_MSaFgLH3Ee2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_myJ3QLNWEe2o46d27a6tVQ" describedService__SEFF="_hWccgLNWEe2o46d27a6tVQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_nJpKMLNWEe2o46d27a6tVQ" successor_AbstractAction="_nJpKMbNWEe2o46d27a6tVQ"/>
@@ -1479,7 +1479,7 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_nw3iQbNWEe2o46d27a6tVQ" predecessor_AbstractAction="_nw3iQLNWEe2o46d27a6tVQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_MOaIkLHyEe2fRLFFhL_FWA" entityName="TestResultServerDB">
+  <components__Repository xsi:type="repository:BasicComponent" id="_MOaIkLHyEe2fRLFFhL_FWA" entityName="TestResultServerDB">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Ns87cLH4Ee2fRLFFhL_FWA" entityName="TestResultServerDB.TestResultDBInterface" providedInterface__OperationProvidedRole="_LWD8kLH4Ee2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_cKW8sLNXEe2o46d27a6tVQ" describedService__SEFF="_XiXd4LNXEe2o46d27a6tVQ">
       <steps_Behaviour xsi:type="seff:StartAction" id="_caJFILNXEe2o46d27a6tVQ" successor_AbstractAction="_caJFIbNXEe2o46d27a6tVQ"/>
@@ -1490,7 +1490,7 @@
       <steps_Behaviour xsi:type="seff:StopAction" id="_c6ziMbNXEe2o46d27a6tVQ" predecessor_AbstractAction="_c6ziMLNXEe2o46d27a6tVQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository_1:OperationalDataStoreComponent" id="_76WtcLIAEe2fRLFFhL_FWA" entityName="SecureStorage">
+  <components__Repository xsi:type="repository:BasicComponent" id="_76WtcLIAEe2fRLFFhL_FWA" entityName="SecureStorage">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_J4KFELIBEe2fRLFFhL_FWA" entityName="SecureStorage.SecureStorageInterface" providedInterface__OperationProvidedRole="_AGkPMLIBEe2fRLFFhL_FWA"/>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_gg5MgLIBEe2fRLFFhL_FWA" describedService__SEFF="_SxPloLIBEe2fRLFFhL_FWA">
       <steps_Behaviour xsi:type="seff:StartAction" id="_h0_4sLIBEe2fRLFFhL_FWA" successor_AbstractAction="_h0_4sbIBEe2fRLFFhL_FWA"/>

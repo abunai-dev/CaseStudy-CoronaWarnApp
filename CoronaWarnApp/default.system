@@ -13,7 +13,7 @@
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_AcWhsLHwEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_v1LV8LNhEe2o46d27a6tVQ" entityName="Assembly_CoronaWarnAppServerDB">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_Iwi6kLHyEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_yhADALNhEe2o46d27a6tVQ" entityName="Assembly_CovPassIssuerServer">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_gwLq4LHvEe2fRLFFhL_FWA"/>
@@ -28,7 +28,7 @@
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_FN_rwLHwEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="__L0IwLNhEe2o46d27a6tVQ" entityName="Assembly_EuropeanFederationGatewayServiceDB">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_Fr6r8LHyEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_BkWGYLNiEe2o46d27a6tVQ" entityName="Assembly_ExposureNotificationFramework">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_FvxYkLHvEe2fRLFFhL_FWA"/>
@@ -43,7 +43,7 @@
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_n_B3MLHvEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_N_c8MLNiEe2o46d27a6tVQ" entityName="Assembly_SecureStorage">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_76WtcLIAEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_QZhK4LNiEe2o46d27a6tVQ" entityName="Assembly_SwissKeyExchangeServer">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_HslOELHwEe2fRLFFhL_FWA"/>
@@ -52,7 +52,7 @@
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_pS89MLHvEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_bDuq0LNiEe2o46d27a6tVQ" entityName="Assembly_TestResultServerDB">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository_1:OperationalDataStoreComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_MOaIkLHyEe2fRLFFhL_FWA"/>
   </assemblyContexts__ComposedStructure>
   <assemblyContexts__ComposedStructure id="_dlk8gLNiEe2o46d27a6tVQ" entityName="Assembly_VerificationServer">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_lPVWwLHvEe2fRLFFhL_FWA"/>
