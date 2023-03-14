@@ -148,8 +148,20 @@
       </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_r2C14LK8Ee2Y1pKtbIeM6Q" describedService__SEFF="_gPc5ILKvEe2Y1pKtbIeM6Q">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_ssANgLK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_ssANgbK8Ee2Y1pKtbIeM6Q"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_ssANgbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_ssANgLK8Ee2Y1pKtbIeM6Q"/>
+      <steps_Behaviour xsi:type="seff:StartAction" id="_ssANgLK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_NPsfsMK3Ee28l_bdB_O6zg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_ssANgbK8Ee2Y1pKtbIeM6Q" predecessor_AbstractAction="_NPsfsMK3Ee28l_bdB_O6zg"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_NPsfsMK3Ee28l_bdB_O6zg" entityName="StoreEntry" predecessor_AbstractAction="_ssANgLK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_ssANgbK8Ee2Y1pKtbIeM6Q">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage xsi:type="confidentiality:ConfidentialityVariableCharacterisation">
+            <specification_VariableCharacterisation specification="false"/>
+            <lhs xsi:type="expression:LhsEnumCharacteristicReference" id="_R5ul4MK3Ee28l_bdB_O6zg"/>
+            <rhs xsi:type="expression:NamedEnumCharacteristicReference" id="_R5ul4cK3Ee28l_bdB_O6zg">
+              <namedReference xsi:type="stoex:VariableReference" referenceName="journalEntry"/>
+            </rhs>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:VariableReference" referenceName="store"/>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_s-4GMLK8Ee2Y1pKtbIeM6Q" describedService__SEFF="_0P3TcLKvEe2Y1pKtbIeM6Q">
       <steps_Behaviour xsi:type="seff:StartAction" id="_umC4ULK8Ee2Y1pKtbIeM6Q" successor_AbstractAction="_L8fqELkBEe25g4oGy4Jxtw"/>
