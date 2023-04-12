@@ -20,11 +20,11 @@ In the following, we show the repository diagram and the allocation diagram. Cli
 
 ### Repository diagram
 
-![Repository diagram](repository.png)
+[![Repository diagram](repository.png)](https://raw.githubusercontent.com/abunai-dev/CaseStudy-CoronaWarnApp/main/repository.png)
 
 ### Allocation diagram
 
-![Allocation diagram](allocation.png)
+[![Allocation diagram](allocation.png)](https://raw.githubusercontent.com/abunai-dev/CaseStudy-CoronaWarnApp/main/allocation.png)
 
 ## More information
 
