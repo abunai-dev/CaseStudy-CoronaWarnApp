@@ -25,3 +25,7 @@ In the following, we show the repository diagram and the allocation diagram. Cli
 ### Allocation diagram
 
 ![Allocation diagram](allocation.png)
+
+## More information
+
+For more information, please refer to [https://abunai.dev](https://abunai.dev).
