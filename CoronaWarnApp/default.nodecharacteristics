@@ -25,6 +25,7 @@
     <characteristics id="_gLPWkAa5Ee680PEp2Dhvig">
       <type xsi:type="DataDictionaryCharacterized:EnumCharacteristicType" href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicTypes@1"/>
       <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@4"/>
+      <values href="cwa.pddc#_ZSNvMLHIEe2fRLFFhL_FWA-characteristicEnumerations@1.literals@0"/>
     </characteristics>
     <resourcecontainer href="default.resourceenvironment#_Buy2ULN3Ee2o46d27a6tVQ"/>
   </assignee>
