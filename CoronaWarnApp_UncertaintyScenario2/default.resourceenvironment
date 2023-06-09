@@ -12,7 +12,7 @@
       <throughput_CommunicationLinkResourceSpecification/>
     </communicationLinkResourceSpecifications_LinkingResource>
   </linkingResources__ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment id="_g7XcgLN2Ee2o46d27a6tVQ" entityName="MobliePhone"/>
+  <resourceContainer_ResourceEnvironment id="_g7XcgLN2Ee2o46d27a6tVQ" entityName="MobilePhone"/>
   <resourceContainer_ResourceEnvironment id="_itmPILN2Ee2o46d27a6tVQ" entityName="Laboratory"/>
   <resourceContainer_ResourceEnvironment id="_pGlxgLN2Ee2o46d27a6tVQ" entityName="OpenTelekomCloud"/>
   <resourceContainer_ResourceEnvironment id="_rlXhELN2Ee2o46d27a6tVQ" entityName="ContentDeliveryNetwork"/>
