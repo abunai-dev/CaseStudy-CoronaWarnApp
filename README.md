@@ -12,6 +12,13 @@ The primary sources of the modeled information are:
 - Available [documentation](https://health.ec.europa.eu/system/files/2021-04/digital-green-certificates_dt-specifications_en_0.pdf) about digital COVID-19 certificates, also known as digital green certificates
 - Documentation about the interfaces of the [CovPass Issuer](https://github.com/Digitaler-Impfnachweis/documentation)
 
+## Branches
+
+There are multiple branches that reflect different versions of the case study:
+
+- The `main` branch contains the main case study with all Palladio models and additionally modeled confidentiality information
+- The `uncertainty-impact-scenarios` branch contains 4 scenarios that have been used to evaluate the [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis)
+
 ## Diagrams
 
 Please use [Palladio](https://www.palladio-simulator.com/) to open the model files. To use the models in confidentiality analysis or uncertainty impact analysis, see the [installation guide](https://github.com/abunai-dev/UncertaintyImpactAnalysis).
