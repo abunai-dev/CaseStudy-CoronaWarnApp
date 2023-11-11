@@ -4,7 +4,7 @@ This repository contains [Palladio](https://www.palladio-simulator.com/) softwar
 
 We modeled all important functionality of the Corona Warn App, e.g., the exchange, download, and upload of keys, checking COVID-19 test results, requesting vaccination certificates, or gathering analysis data. The models in this repository are primarily used to evaluate confidentiality analysis and [Uncertainty Impact Analysis](https://github.com/abunai-dev/UncertaintyImpactAnalysis). However, other use cases for software architecture research evaluation are imaginable.
 
-Please refer to the original publication: S. Hahner, R. Heinrich, and R. Reussner, "Architecture based Uncertainty Impact Analysis to ensure Confidentiality", in *18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)*, IEEE/ACM, 2023, accepted, to appear.
+Please refer to the original publication: S. Hahner, R. Heinrich, and R. Reussner, "Architecture based Uncertainty Impact Analysis to Ensure Confidentiality", in *18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)*, IEEE/ACM, 2023, doi: [10.1109/SEAMS59076.2023.00026](https://doi.org/10.1109/SEAMS59076.2023.00026)
 
 The primary sources of the modeled information are:
 
